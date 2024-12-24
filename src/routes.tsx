@@ -1,13 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Default } from "./layout/Default";
-import { App } from "./App";
+import { Hero } from "./components/Hero";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Default />,
     children: [
-      { path: "/", element: <App /> },
+      { path: "/", element: <Hero /> },
       // { path: '/about', element: <About/> },
       // { path: '/contact', element: <Contact/> },
       // { path: '/products', element: <Products/> },
