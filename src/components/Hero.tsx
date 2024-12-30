@@ -8,25 +8,26 @@ export function Hero() {
       <div className="grid grid-cols-2 items-center justify-center gap-10">
         <div className="space-y-6">
           <p className="text-lg font-medium tracking-wider bg-gradient-to-r from-sky-500 via-blue-600 to-blue-700 text-transparent bg-clip-text">
-            PERSONAL LOANS
+            Desenvolvedor Frontend
           </p>
           <h1 className="text-5xl font-bold tracking-wide">
-            Smart Crypto investment tool on Money Lion Crypto
+            Entregando projetos elegantes & modernos.
           </h1>
           <p className="text-sm text-gray-400">
-            Need to consolidate debt or make a large purchase? We bring the
-            lenders to you so you can shop and compare personal loan offers in
-            minutes.
+            Construindo interfaces de usuário modernas e atendendo aos
+            requisitos de design, performance e responsividade.
+            <br />
+            Tecnologias como React, Next.js, Tailwind CSS e TypeScript.
           </p>
           <div className="flex items-center gap-9">
             <Button className="rounded-full bg-gradient-to-r from-sky-400 to-blue-700 hover:brightness-90 transition-all ease-linear tracking-wide p-6 font-semibold">
-              COMPARE RATES
+              PORTFOLIO
             </Button>
-            <Button variant="ghost" size="lg" className="p-6">
-              <span className="p-3 bg-blue-950 rounded-full">
-                <Play fill="#0284c7" className="text-sky-600 w-full" />
+            <Button variant="ghost" size="lg">
+              <span className="p-3 bg-blue-950 rounded-full flex items-center">
+                <Play fill="#0284c7" className="text-sky-500" />
               </span>
-              <span className="font-semibold text-gray-400">Watch Reel</span>
+              <span className="font-semibold text-gray-400">Veja mais</span>
             </Button>
           </div>
         </div>

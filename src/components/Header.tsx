@@ -17,7 +17,7 @@ export function Header() {
               }`
             }
           >
-            PRODUCTS
+            SOBRE MIM
           </NavLink>
           <NavLink
             to="/moneylife"
@@ -27,7 +27,7 @@ export function Header() {
               }`
             }
           >
-            MONEYLIFE
+            PORTFOLIO
           </NavLink>
           <NavLink
             to="/about"
@@ -37,14 +37,14 @@ export function Header() {
               }`
             }
           >
-            ABOUT US
+            SERVIÇOS
           </NavLink>
         </nav>
       </div>
       <div className="flex items-center gap-6">
         <div className="h-6 w-[1px] bg-gradient-to-b from-sky-500 to-blue-700" />
         <Button className="rounded-full bg-gradient-to-r from-sky-400 to-blue-700 hover:brightness-90 transition-all ease-linear tracking-widest px-6">
-          JOIN NOW
+          CONTATO
         </Button>
       </div>
     </div>
