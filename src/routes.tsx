@@ -1,18 +1,15 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Default } from "./layout/Default";
-import { Hero } from "./components/Hero";
+import { LandingPage } from "./pages";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <Default />,
     children: [
-      { path: "/", element: <Hero /> },
-      // { path: '/about', element: <About/> },
+      { path: "/", element: <LandingPage /> },
+      // { path: "/projects", element: <Projects /> },
       // { path: '/contact', element: <Contact/> },
-      // { path: '/products', element: <Products/> },
-      // { path: '/moneylife', element: <MoneyLife/> },
-      // { path: '/:product', element: <Product/> },
       // { path: '*', element: <NotFound/> },
     ],
   },

@@ -20,7 +20,7 @@ export function Header() {
             SOBRE MIM
           </NavLink>
           <NavLink
-            to="/moneylife"
+            to="/projects"
             className={({ isActive }) =>
               `hover:text-primary ease-in transition-colors tracking-widest ${
                 isActive ? "text-primary" : "text-gray-400"
